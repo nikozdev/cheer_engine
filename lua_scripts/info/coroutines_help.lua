@@ -1,0 +1,20 @@
+--coroutines
+	--coroutine.create(function)
+		--function has to return yield
+		--"create" returns new coroutine of type thread
+	--coroutine.isyieldable()
+		--We can stop working program
+	--coroutine.resume(coroutine_name[, values])
+		--Launch or continue work
+		--returns values given in yield return;
+		--true if it is working else - false with errormsg
+	--coroutine.running()
+		--returns working coroutine and true if this routine is main
+	--coroutine.status(name);
+		--returns a string with information about state
+		--"running"
+		--"suspended" (stopped for some time by yield)
+		--"normal
+		--"dead"
+	--coroutine.yield(args)
+		--Stops calling coroutine

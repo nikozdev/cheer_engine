@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Headers\Support\imgui\imgui.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\imgui_impl_glfw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\libs\usynergy\uSynergy.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Support\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\ESC\Component.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\ESC\Entity.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\scenes\GL_scene.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\scenes\GL_scene_manager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\scenes\GL_scene_renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\scenes\GL_scene_sandbox.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\gl_Renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_structs.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_TextRenderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_types.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_Window.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Lua\L_state.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Lua\lua_structs.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Support\ch_managers.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Support\ch_memory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Support\ch_stbi_load.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Support\ch_support.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\CheerEngine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\Support\ch_Load_master.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\GL_GraphicsObj.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\CheerEngine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\include\lauxlib.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\include\lua.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\include\lua.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\include\luaconf.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\include\lualib.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ESC\Entity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ESC\Component.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\ch_memory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_types.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_structs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imconfig.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imgui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imgui_internal.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imstb_rectpack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imstb_textedit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imstb_truetype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imgui_impl_opengl3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\libs\glfw\include\GLFW\glfw3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\libs\glfw\include\GLFW\glfw3native.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\imgui_impl_glfw.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\libs\gl3w\GL\gl3w.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\libs\gl3w\GL\glcorearb.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\imgui\libs\usynergy\uSynergy.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\lua_structs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_window.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_Renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\ch_managers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_TextRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\ch_support.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL_header.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\framework.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ESC_header.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua_header.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lua\L_state.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\scenes\GL_scene.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\scenes\GL_scene_sandbox.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL_scene_header.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\scenes\GL_scene_manager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\scenes\GL_scene_renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\math\ch_math.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\geom\ch_geom.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\ch_LoadMaster.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\defer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Support\stb_image.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GL_GraphicsObj.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backpack\backpack.mtl" />
+    <None Include="Resources\heart.dae" />
+    <None Include="x64\Debug\glew32.dll" />
+    <None Include="x64\Debug\glfw3.dll" />
+    <None Include="lua_scripts\data\vertex_data.lua" />
+    <None Include="lua_scripts\functions\helper_functions.lua" />
+    <None Include="Shaders\primitiveVShader.lua" />
+    <None Include="Shaders\primitiveFShader.lua" />
+    <None Include="lua_scripts\data\material_data.lua" />
+    <None Include="lua_scripts\entities\entity.lua" />
+    <None Include="lua_scripts\info\code_store.lua" />
+    <None Include="lua_scripts\info\lua_help.lua" />
+    <None Include="lua_scripts\info\obj_loading.lua" />
+    <None Include="lua_scripts\data\model_data.lua" />
+    <None Include="lua_scripts\data\shader_data.lua" />
+    <None Include="lua_scripts\data\light_data.lua" />
+    <None Include="Shaders\helper_fs.lua" />
+    <None Include="Shaders\helper_vs.lua" />
+    <None Include="lua_scripts\functions\debug.lua" />
+    <None Include="lua_scripts\info\coroutines_help.lua" />
+    <None Include="lua_scripts\info\modules_help.lua" />
+    <None Include="imgui.ini" />
+    <None Include="lua_scripts\info\garbage_collector_help.lua" />
+    <None Include="Shaders\text0_vs.lua" />
+    <None Include="Shaders\text0_fs.lua" />
+    <None Include="lua_scripts\info\opengl_index_drawing.lua" />
+    <None Include="Shaders\obj0_3d_phong_fs.lua" />
+    <None Include="Shaders\obj0_3d_fs.lua" />
+    <None Include="Shaders\obj0_3d_vs.lua" />
+    <None Include="Shaders\obj0_2d_vs.lua" />
+    <None Include="Shaders\obj0_2d_fs.lua" />
+    <None Include="Shaders\test0_vs.lua" />
+    <None Include="Shaders\test0_fs.lua" />
+    <None Include="Shaders\core_2d_vs.lua" />
+    <None Include="lua_scripts\states\core_state.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\backpack\source_attribution.txt" />
+    <Text Include="Shaders\objFShader.lua" />
+    <Text Include="Shaders\objVShader.lua" />
+    <Text Include="Shaders\core_2d_fs.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Stump1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\BlackSilk.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\BlueTex2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\DawnStar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\Gingerbread.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\GlassTex.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\GrassTex.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\GroundSprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\MetalTex.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\ScratchedBlue.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\Stone.JPG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\container2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\container2_specular.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\matrix1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\matrix.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\fissures.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\container_spec1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\container_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\container.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\ScratchedBlue1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\backpack\ao.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\backpack\diffuse.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\backpack\normal.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\backpack\roughness.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\backpack\specular.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\BlackSilk.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\BlueTex2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\container.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\container_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\container_spec1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\DawnStar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\fissures.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\Gingerbread.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\GlassTex.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\GrassTex.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\GroundSprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\matrix.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\matrix1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\MetalTex.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\ScratchedBlue.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\ScratchedBlue1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\Stone.JPG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Resources\maps\Stump1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\fonts\aseprite_font.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\fonts\aseprite_mini.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\glew32.lib" />
+    <Library Include="Libs\glfw3.lib" />
+    <Library Include="Libs\lua54.lib" />
+  </ItemGroup>
+</Project>
