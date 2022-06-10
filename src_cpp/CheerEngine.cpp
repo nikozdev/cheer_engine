@@ -15,7 +15,7 @@ extern std::string dir;
 //Functions for Initialize
 void CheerEngine::initStates()
 {
-	addState((dir + "lua_scripts\\states\\core_state.lua").c_str());
+	addState((dir + "\\lua_scripts\\states\\core_state.lua").c_str());
 }
 
 void CheerEngine::regCppFunctions()

@@ -12,9 +12,9 @@ namespace GL
 		{
 			m_renderer.setShader(SP::ShaderManager::get().getInstance(SP::CORE_2D));
 
-			SP::LoadMaster::loadIt_bin("resources/data_bin/vert_rect.bdt",
+			SP::LoadMaster::loadIt_bin("\\resources\\data_bin\\vert_rect.bdt",
 				(void*)m_renderer.m_vert_rect2d_4, sizeof(m_renderer.m_vert_rect2d_4));
-			SP::LoadMaster::loadIt_bin("resources/data_bin/color_light.bdt",
+			SP::LoadMaster::loadIt_bin("\\resources\\data_bin\\color_light.bdt",
 				(void*)m_renderer.m_lightColor, sizeof(m_renderer.m_lightColor));
 
 			m_tex_data = new unsigned char[]{
@@ -39,9 +39,9 @@ namespace GL
 		}
 		RendererScn::~RendererScn()
 		{
-			SP::LoadMaster::saveIt_bin("resources/data_bin/vert_rect.bdt",
+			SP::LoadMaster::saveIt_bin("\\resources\\data_bin\\vert_rect.bdt",
 				m_renderer.m_vert_rect2d_4, sizeof(m_renderer.m_vert_rect2d_4));
-			SP::LoadMaster::saveIt_bin("resources/data_bin/color_light.bdt",
+			SP::LoadMaster::saveIt_bin("\\resources\\data_bin\\color_light.bdt",
 				(void*)m_renderer.m_lightColor, sizeof(m_renderer.m_lightColor));
 
 			delete[] m_tex_data;

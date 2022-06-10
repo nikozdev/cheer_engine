@@ -59,7 +59,7 @@ namespace L
 		lua_pushcfunction(L, static_cast<lua_CFunction>(constructor));
 		lua_setfield(L, -2, "New");
 		//Table is -2, meta_Table is -1
-		luaL_newmetatable(L, ("meta_" + new_struct_name));
+		luaL_newmetatable(L, (std::string("meta_") + new_struct_name).c_str());
 		if (destructor != nullptr)
 		{//Set garbage collection
 			lua_pushstring(L, "__gc");

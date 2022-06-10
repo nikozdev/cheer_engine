@@ -47,8 +47,8 @@ namespace SP
 
 	bool ShaderManager::initManager()
 	{
-		addInstance(new GL::Shader((dir + "shaders/core_2d_vs.lua").c_str(), (dir + "shaders/core_2d_fs.lua").c_str()) );
-		addInstance(new GL::Shader((dir + "shaders/obj0_3d_vs.lua").c_str(), (dir + "shaders/obj0_3d_phong_fs.lua").c_str()) );
+		addInstance(new GL::Shader((dir + "\\shaders\\core_2d_vs.lua").c_str(), (dir + "\\shaders\\core_2d_fs.lua").c_str()) );
+		addInstance(new GL::Shader((dir + "\\shaders\\obj0_3d_vs.lua").c_str(), (dir + "\\shaders\\obj0_3d_fs.lua").c_str()) );
 
 		return true;
 	}
@@ -108,8 +108,8 @@ namespace SP
 
 	bool TextureManager::initManager()
 	{
-		//addInstance(new GL::Texture("texture_diffuse", "resources/maps/GlassTex.png", 0));
-		//addInstance(new GL::Texture("texture_specular", "resources/maps/GlassTex.png", 1));
+		addInstance(new GL::Texture("texture_diffuse", "\\resources\\maps\\GlassTex.png", 0));
+		addInstance(new GL::Texture("texture_specular", "\\resources\\maps\\GlassTex.png", 1));
 
 		return true;
 	}

@@ -9,6 +9,9 @@
 #include <math/glm/matrix.hpp>
 #include <math/glm/trigonometric.hpp>
 
+#undef far
+#undef near
+
 namespace GL
 {
 	enum camDirections {

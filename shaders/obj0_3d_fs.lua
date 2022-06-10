@@ -145,7 +145,7 @@ vec3 CalcSpotLight(SpotLight sLight, vec3 normal, vec3 viewDir, vec3 fPos)
 	sLight.linK * distance + sLight.quadK * (distance * distance));
 	
 	vec3 lightDir = normalize(sLight.direction);
-	float theta = dot(lightDir, normalize(-sLight.direction))
+	float theta = dot(lightDir, normalize(-sLight.direction));
 	float epsilon = sLight.cutOffIn - sLight.cutOffOut;
 	float intensity = clamp ( (theta - sLight.cutOffOut) / epsilon, 0.0f, 1.0f);
 

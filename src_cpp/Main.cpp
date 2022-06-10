@@ -1,15 +1,17 @@
 #include <CheerEngine.h>
 #include <ESC_header.hpp>
 
+#include <filesystem>
+
 static bool isFinished = false;
 std::string dir;
 
 int main(int numArgs, char* args[])
 {
-	if (true){
-		std::string path(args[0]);
+	if (true)
+	{
 		// Get the path and the name of executable file
-		dir = path.substr(0, path.find(".0\\") + 3);
+		dir = std::filesystem::current_path().string();
 		printf("MAIN::LINE_%d: Here is your project directory:\n%s\n\n",
 			__LINE__, dir.c_str());
 	}

@@ -13,9 +13,9 @@ function Initialize()
 	print("|MAIN_STATE::INITIALIZED|\n");
 
 	--cpp_createGLWindow(800, 600, "SupportTools");
-	--obj0_shader = Shader:New(shaders.obj0_3d.src.vertex, shaders.obj0_3d.src.fragment_phong);
-	--text0_shader = Shader:New(shaders.text0.src.vertex, shaders.text0.src.fragment);
-	--helper0_shader = Shader:New(shaders.helper0.src.vertex, shaders.helper0.src.fragment);
+	obj0_shader = Shader:New(shaders.obj0_3d.src.vertex, shaders.obj0_3d.src.fragment_phong);
+	text0_shader = Shader:New(shaders.text0.src.vertex, shaders.text0.src.fragment);
+	helper0_shader = Shader:New(shaders.helper0.src.vertex, shaders.helper0.src.fragment);
 end
 
 function Update()
@@ -26,8 +26,8 @@ function Render()
 	if (obj0_shader == nil) then
 		return;
 	end;
-	--cpp_scaleRotateMove(0, models.transform.scale.scale_1_0, models.transform.rotate.rotate_90_0_0,
-	--models.transform.move.move_0_0_0);
+	cpp_scaleRotateMove(0, models.transform.scale.scale_1_0, models.transform.rotate.rotate_90_0_0,
+	models.transform.move.move_0_0_0);
 end
 
 function ReCall()

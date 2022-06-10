@@ -11,6 +11,7 @@ namespace GL
 		{
 			//m_scenes.push_back(new SandBox);
 			m_scenes.push_back(new RendererScn(enginePtr));
+			m_scenes.push_back(new SandBox(enginePtr));
 		}
 		SceneManager::~SceneManager()
 		{

@@ -7,7 +7,7 @@ namespace GL
 
 	GL_Window::GL_Window(int width, int height, const std::string& title) :
 		scrWidth(width), scrHeight(height)
-	{//Initialize GLFW(window manipulations), window, GLEW(glFunctions) and camera
+	{//Initialize GLFW(window manipulations), window, glFunctions and camera
 		if (!glfwInit())
 			return;
 
@@ -26,30 +26,28 @@ namespace GL
 		else
 		{
 			//Bind static functions for GLFWwindow
-			glViewport(0, 0, scrWidth, scrHeight);
 			glfwSetWindowSizeCallback(m_wnd, frame_size_callback);
 			glfwSetErrorCallback(glfw_error_callback);
 			glfwSetCursorPosCallback(m_wnd, GL_Window::mouse_pos_callback);
 			glfwSetScrollCallback(m_wnd, GL_Window::mouse_scroll_callback);
 
 			GL_Window::setContext(this);
-			//glEnable functions
-			{
-				glEnable(GL_DEPTH_TEST);
-				glEnable(GL_BLEND);
-				glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-				glLineWidth(1.0f);
-			}
 		}
-		//Initialize GLEW(glFunctions access)
-		bool err = glewInit() != GLEW_OK;
-		if (err)
+		// glFunctions access
+		if (!gladLoadGL())
 		{
 			printf("GL_Window::CONSTRUCTOR: GLEW isn't initialized.\n");
 			glfwTerminate();
 			return;
 		}
-		glewExperimental = true;
+		//glEnable functions
+		{
+			glViewport(0, 0, scrWidth, scrHeight);
+			glEnable(GL_DEPTH_TEST);
+			glEnable(GL_BLEND);
+			glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+			glLineWidth(1.0f);
+		}
 		//Camera initialization
 		m_camera = new GL_Camera(glm::vec3(0.0f, 0.0f, 0.0f));
 		getCamera()->setSpeed(5.0f);

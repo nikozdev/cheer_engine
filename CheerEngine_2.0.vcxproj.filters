@@ -105,6 +105,12 @@
     <ClCompile Include="src_cpp\GL\GL_GraphicsObj.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src_cpp\GL\glad_wgl.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src_cpp\GL\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\CheerEngine.h">
@@ -257,6 +263,15 @@
     <ClInclude Include="Headers\GL\GL_GraphicsObj.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Headers\GL\GLAD\glad.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\GLAD\glad_wgl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GL\KHR\khrplatform.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\backpack\backpack.mtl" />
@@ -294,6 +309,10 @@
     <None Include="Shaders\test0_fs.lua" />
     <None Include="Shaders\core_2d_vs.lua" />
     <None Include="lua_scripts\states\core_state.lua" />
+    <None Include="resources\data_bin\color_light.bdt" />
+    <None Include="resources\data_bin\light_def.bdt" />
+    <None Include="resources\data_bin\vert_rect.bdt" />
+    <None Include="resources\data_bin\vert_rect_def.bdt" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Resources\backpack\source_attribution.txt" />
@@ -439,7 +458,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="Libs\glew32.lib" />
     <Library Include="Libs\glfw3.lib" />
     <Library Include="Libs\lua54.lib" />
   </ItemGroup>
